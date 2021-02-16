@@ -29,7 +29,7 @@ if(mensaje==null)
 </form>
 
 <br>
-<input name="resultado" size="50" type="text" value="<%= (String)request.getAttribute("result") %>" disabled="disabled">
+<input name="resultado" size="50" type="text" value="EL año elegido es: <%= (String)request.getAttribute("result") %>" disabled="disabled">
 
 </body>
 </html>
